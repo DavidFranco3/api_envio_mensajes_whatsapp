@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1769809082796,
+    "timestamp": "2026-01-30T21:38:02.796Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola david, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 154
+  },
+  {
+    "id": 1769809050259,
+    "timestamp": "2026-01-30T21:37:30.259Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola david, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 157
+  },
+  {
+    "id": 1769809043550,
+    "timestamp": "2026-01-30T21:37:23.550Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola david, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 155
+  },
+  {
+    "id": 1769809036716,
+    "timestamp": "2026-01-30T21:37:16.717Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola david, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 138
+  },
+  {
+    "id": 1769808817333,
+    "timestamp": "2026-01-30T21:33:37.333Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "exito": false,
+    "error": "findChat: new chat not found 0256@lid\nnew Error (<anonymous>:6:31)",
+    "tiempo": 230
+  },
+  {
+    "id": 1769808774127,
+    "timestamp": "2026-01-30T21:32:54.127Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "exito": false,
+    "error": "findChat: new chat not found 0256@lid\nnew Error (<anonymous>:6:31)",
+    "tiempo": 1365
+  },
+  {
+    "id": 1769808722291,
+    "timestamp": "2026-01-30T21:32:02.291Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola david, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 132
+  },
+  {
+    "id": 1769808670206,
+    "timestamp": "2026-01-30T21:31:10.206Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola david, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 292
+  },
+  {
+    "id": 1769802552953,
+    "timestamp": "2026-01-30T19:49:12.953Z",
+    "cliente": "david",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola david, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 137
+  },
+  {
+    "id": 1768432540158,
+    "timestamp": "2026-01-14T23:15:40.158Z",
+    "cliente": "Diego",
+    "telefono": "+524272796272",
+    "saldo": 0,
+    "tipo": "primerRecordatorio",
+    "mensaje": "Hola Diego, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$0.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 435
+  },
+  {
+    "id": 1768423327307,
+    "timestamp": "2026-01-14T20:42:07.307Z",
+    "cliente": "Juan Pérez",
+    "telefono": "+5214272796272",
+    "saldo": 1500,
+    "tipo": "primerRecordatorio",
+    "mensaje": "Hola Juan Pérez, este es un recordatorio amable:\n\n💵 Tienes un saldo pendiente de *$1500.00*\n📅 Vence el próximos días\n\n¿Necesitas ayuda con el pago?",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 332
+  }
+]
