@@ -1,0 +1,36 @@
+
+# Instrucciones de Despliegue (WhatsApp API)
+
+1. Copia todos los archivos de esta carpeta a tu servidor.
+2. Abre una terminal en la carpeta.
+3. Ejecuta el siguiente comando para instalar las dependencias:
+   npm install --production
+
+4. **Para mantener el servicio activo (Recomendado):**
+   
+   Usaremos PM2, un gestor de procesos que reinicia la app si falla o si se reinicia el servidor.
+
+   a. Instala PM2 globalmente:
+      npm install -g pm2
+
+   b. Inicia la aplicación:
+      pm2 start server.js --name "whatsapp-api"
+
+   c. Configura PM2 para que inicie con el sistema (Windows/Linux):
+      pm2 startup
+      (Copia y pega el comando que te muestre en la terminal)
+      pm2 save
+
+   Comandos útiles de PM2:
+   - Ver estado: `pm2 status`
+   - Ver logs: `pm2 logs`
+   - Reiniciar: `pm2 restart whatsapp-api`
+   - Detener: `pm2 stop whatsapp-api`
+
+5. Opción básica (Sin PM2):
+   npm start
+
+
+NOTA: 
+- El servidor intentará descargar la versión correcta de WhatsApp Web automáticamente.
+- Asegúrate de tener Chrome/Chromium instalado si estás en Linux, o Puppeteer descargará una versión compatible.

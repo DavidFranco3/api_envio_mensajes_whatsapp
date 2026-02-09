@@ -1,0 +1,35 @@
+{
+  "whatsapp": {
+    "limite_mensual": 1500,
+    "limite_diario_recomendado": 50,
+    "limite_por_lote": 30,
+    "delay_entre_mensajes": 2000,
+    "plantillas": {
+      "primerRecordatorio": {
+        "dias_desde_vencimiento": 0,
+        "tono": "amable",
+        "incluir_opcion_ayuda": true
+      },
+      "segundoRecordatorio": {
+        "dias_desde_vencimiento": 7,
+        "tono": "recordatorio",
+        "incluir_urgencia": "media"
+      },
+      "ultimoRecordatorio": {
+        "dias_desde_vencimiento": 15,
+        "tono": "urgente",
+        "incluir_consecuencias": true
+      }
+    }
+  },
+  "clientes": {
+    "formato_telefono": "10 dígitos sin código (5512345678)",
+    "campos_requeridos": ["nombre", "telefono", "saldo"],
+    "campos_opcionales": ["vencimiento", "diasVencido", "email"]
+  },
+  "seguridad": {
+    "reintentos_conexion": 3,
+    "backup_sesiones": true,
+    "log_enviados": true
+  }
+}
