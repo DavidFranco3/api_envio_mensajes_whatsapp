@@ -503,4 +503,8 @@ if (require.main === module) {
     });
 }
 
-module.exports = { app, client, state };
+// Exportar app para Vercel
+module.exports = app;
+// Adjuntar otras propiedades si son necesarias para otros módulos (aunque en Vercel el entry point es lo importante)
+module.exports.client = client;
+module.exports.state = state;
