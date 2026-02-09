@@ -1,5 +1,29 @@
 [
   {
+    "id": 1770676014029,
+    "timestamp": "2026-02-09T22:26:54.029Z",
+    "cliente": "jorge perez",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola jorge perez, le recordamos que su fecha de corte es el día 6. Agradecemos su puntualidad.",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 24
+  },
+  {
+    "id": 1770675646166,
+    "timestamp": "2026-02-09T22:20:46.166Z",
+    "cliente": "jorge perez",
+    "telefono": "4531527363",
+    "saldo": 0,
+    "tipo": "recordatorio",
+    "mensaje": "Hola jorge perez, le recordamos que su fecha de corte es el día 6. Agradecemos su puntualidad.",
+    "exito": true,
+    "metodo": "normal",
+    "tiempo": 25
+  },
+  {
     "id": 1770675525453,
     "timestamp": "2026-02-09T22:18:45.453Z",
     "cliente": "jorge perez",
