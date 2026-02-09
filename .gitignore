@@ -1,4 +1,4 @@
-# WhatsApp sessions / cache
+# WhatsApp sessions / chromium data
 whatsapp_sessions/
 
 *.db
