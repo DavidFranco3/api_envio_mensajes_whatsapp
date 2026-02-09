@@ -12,7 +12,7 @@
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "git+https://github.com/DavidFranco3/api_envio_mensajes_whatsapp.git#master"
+    "whatsapp-web.js": "git+https://github.com/pedroslopez/whatsapp-web.js.git#main"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
