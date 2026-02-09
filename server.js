@@ -16,7 +16,7 @@ app.use(express.json({ limit: '10mb' }));
 const client = new Client({
     authStrategy: new LocalAuth({
         clientId: 'recordatorios-pagos',
-        dataPath: './whatsapp_sessions'
+        dataPath: process.env.VERCEL ? '/tmp/whatsapp_sessions' : './whatsapp_sessions'
     }),
     puppeteer: {
         headless: true,
