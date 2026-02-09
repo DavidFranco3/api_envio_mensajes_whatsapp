@@ -50,7 +50,7 @@ const state = {
 
 // ==================== SISTEMA DE HISTORIAL ====================
 // Configurar directorio de logs
-const logsDir = path.join(__dirname, 'logs');
+const logsDir = process.env.VERCEL ? path.join('/tmp', 'logs') : path.join(__dirname, 'logs');
 if (!fs.existsSync(logsDir)) {
     fs.mkdirSync(logsDir, { recursive: true });
 }
