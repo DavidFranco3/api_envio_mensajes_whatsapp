@@ -493,6 +493,10 @@ app.post('/send-reminder', async (req, res) => {
 
 // ... (send-batch-reminders, test-number, dashboard, health, root se mantienen o se omiten por brevedad en este overwrite)
 
+app.get('/', (req, res) => {
+    res.send('WhatsApp Backend is running!');
+});
+
 if (require.main === module) {
     app.listen(port, () => {
         console.log(`💰 SERVIDOR WHATSAPP v2.1 LISTO EN PUERTO ${port}`);
