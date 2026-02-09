@@ -1,0 +1,12 @@
+# WhatsApp sessions / cache
+whatsapp_sessions/
+
+*.db
+*.log
+*-wal
+Cache/
+GPUCache/
+Code Cache/
+
+# Dependencies
+node_modules/

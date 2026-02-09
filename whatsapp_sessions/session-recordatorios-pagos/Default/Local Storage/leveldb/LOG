@@ -1,6 +1,0 @@
-2026/02/05-13:58:07.063 2c628 Reusing MANIFEST C:\Users\al180\Downloads\backend\backend\whatsapp_sessions\session-recordatorios-pagos\Default\Local Storage\leveldb/MANIFEST-000001
-2026/02/05-13:58:07.080 2c628 Recovering log #17
-2026/02/05-13:58:07.082 2c628 Reusing old log C:\Users\al180\Downloads\backend\backend\whatsapp_sessions\session-recordatorios-pagos\Default\Local Storage\leveldb/000017.log 
-2026/02/05-16:28:23.986 2c5f8 Level-0 table #20: started
-2026/02/05-16:28:24.010 2c5f8 Level-0 table #20: 12772 bytes OK
-2026/02/05-16:28:24.013 2c5f8 Delete type=0 #17
