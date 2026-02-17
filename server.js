@@ -1,17 +1,20 @@
-const express = require('express');
-const {
-    default: makeWASocket,
+import express from 'express';
+import makeWASocket, {
     useMultiFileAuthState,
     DisconnectReason,
     fetchLatestBaileysVersion,
     Browsers,
     makeCacheableSignalKeyStore
-} = require('@whiskeysockets/baileys');
-const qrcode = require('qrcode-terminal');
-const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
-const pino = require('pino');
+} from '@whiskeysockets/baileys';
+import qrcode from 'qrcode-terminal';
+import cors from 'cors';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import pino from 'pino';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const port = process.env.PORT || 3001;
@@ -324,11 +327,13 @@ app.get('/', (req, res) => {
     res.send('WhatsApp Baileys Backend is running!');
 });
 
-if (require.main === module) {
+const isMain = process.argv[1] && (path.resolve(process.argv[1]) === path.resolve(__filename));
+
+if (isMain) {
     app.listen(port, () => {
         console.log(`🚀 SERVIDOR WHATSAPP (Baileys) v3.0 LISTO EN PUERTO ${port}`);
         connectToWhatsApp();
     });
 }
 
-module.exports = app;
+export default app;

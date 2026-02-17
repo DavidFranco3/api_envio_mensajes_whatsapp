@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 class MantenimientoWhatsApp {
   constructor() {
@@ -41,7 +41,7 @@ class MantenimientoWhatsApp {
         .filter(line => line)
         .map(line => JSON.parse(line));
 
-      const logsHoy = logs.filter(log => 
+      const logsHoy = logs.filter(log =>
         new Date(log.fecha).toDateString() === hoy
       );
 
@@ -63,11 +63,11 @@ class MantenimientoWhatsApp {
     const sessionDir = './whatsapp_sessions';
     if (fs.existsSync(sessionDir)) {
       const unaSemanaAtras = Date.now() - (7 * 24 * 60 * 60 * 1000);
-      
+
       fs.readdirSync(sessionDir).forEach(file => {
         const filePath = path.join(sessionDir, file);
         const stats = fs.statSync(filePath);
-        
+
         if (stats.mtimeMs < unaSemanaAtras && file !== '.gitkeep') {
           fs.unlinkSync(filePath);
           console.log(`🗑️  Eliminado: ${file}`);
@@ -77,4 +77,4 @@ class MantenimientoWhatsApp {
   }
 }
 
-module.exports = new MantenimientoWhatsApp();
+export default new MantenimientoWhatsApp();
