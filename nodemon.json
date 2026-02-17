@@ -1,0 +1,8 @@
+{
+    "ignore": [
+        "whatsapp_sessions/*",
+        "logs/*",
+        "*.json"
+    ],
+    "ext": "js,html,css"
+}
